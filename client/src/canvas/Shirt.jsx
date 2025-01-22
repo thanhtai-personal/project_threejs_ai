@@ -19,7 +19,7 @@ const Shirt = () => {
 
   return (
     <group key={stateString}>
-      <mesh
+      {/* <mesh
         castShadow
         geometry={nodes.T_Shirt_male.geometry}
         material={materials.lambert1}
@@ -46,7 +46,7 @@ const Shirt = () => {
             depthWrite={true}
           />
         )}
-      </mesh>
+      </mesh> */}
     </group>
   )
 }
